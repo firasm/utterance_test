@@ -123,3 +123,11 @@ in-line with the rest of your content.
 
 For more information about executing computational content with Jupyter Book,
 see [The MyST-NB documentation](https://myst-nb.readthedocs.io/).
+
+<script src="https://utteranc.es/client.js"
+        repo="firasm/utterance_test"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
