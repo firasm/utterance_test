@@ -4,6 +4,28 @@ Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or
 in regular markdown files (`.md`), you'll write in the same flavor of markdown
 called **MyST Markdown**.
 
+## Image default
+
+<img src="images/fun-fish.png" alt="fishy" class="bg-primary" width="200px">
+
+## Image modal
+
+<!-- Trigger the Modal -->
+<img id="myImg" src="images/fun-fish.png" alt="fishy" width="200px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
 ## What is MyST?
 
 MyST stands for "Markedly Structured Text". It
