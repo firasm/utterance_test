@@ -11,3 +11,6 @@ html:
   comments:
     utterances:
       repo: "firasm/utterance_test"
+
+parse:
+  myst_extended_syntax: true
