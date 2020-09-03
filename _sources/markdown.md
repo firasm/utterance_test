@@ -10,9 +10,6 @@ called **MyST Markdown**.
 
 ## Image modal
 
-<!-- Trigger the Modal -->
-<img class="wh-fig-a" src="images/fun-fish.png" alt="fishy" width="200px">
-
 ## What is MyST?
 
 MyST stands for "Markedly Structured Text". It
