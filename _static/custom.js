@@ -1,3 +1,4 @@
+
 function openModal(src, lastFocus) {
     let modal = document.querySelector('#wh-modal')
     modal.style.display = 'block'
@@ -16,19 +17,19 @@ function openModal(src, lastFocus) {
 }
 
 function insertAnchors(element) {
-    if (element.parentElement.tagName !== 'A') {
-        let newButton = document.createElement('button')
-        //newButton.href = element.getAttribute('src')
-        //newButton.href = ''
-        let p = element.parentElement
-        element.parentElement.removeChild(element)
-        newButton.appendChild(element)
-        p.appendChild(newButton)
-        newButton.onclick = () => openModal(element.getAttribute('src'), newButton)
-        newButton.classList.add('wh-fig-a')
-        newButton.classList.add('wh-venti-button')
-        newButton.setAttribute('tabIndex', '0')
-    }
+    // if (element.parentElement.tagName !== 'A') {
+    let newButton = document.createElement('button')
+    //newButton.href = element.getAttribute('src')
+    //newButton.href = ''
+    let p = element.parentElement
+    element.parentElement.removeChild(element)
+    newButton.appendChild(element)
+    p.appendChild(newButton)
+    newButton.onclick = () => openModal(element.getAttribute('src'), newButton)
+    newButton.classList.add('wh-fig-a')
+    newButton.classList.add('wh-venti-button')
+    newButton.setAttribute('tabIndex', '0')
+    //}
 }
 
 function addImgAnchors() {
